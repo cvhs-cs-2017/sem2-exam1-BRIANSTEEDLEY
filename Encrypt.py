@@ -32,7 +32,7 @@ print(Ciphertext('Computer Science Makes the World go round but it does not make
 
 
 
-"""Write an encryption code that you make up and run it for the variable NoVowels'''
+"""Write an encryption code that you make up and run it for the variable NoVowels"""
 def Ciphertext(pie):
     Ciphertext = ""
     for i in pie:
