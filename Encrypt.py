@@ -33,3 +33,20 @@ print(Ciphertext('onomonopia'))
 
 
 """Write an encryption code that you make up and run it for the variable NoVowels"""
+def Ciphertext(pie):
+    Ciphertext = ""
+    for i in pie:
+        if i =='a':
+            Ciphertext = Ciphertext + '%'
+        elif i == 'e':
+            Ciphertext = Ciphertext + '^'
+        elif i == 'i':
+            Ciphertext = Ciphertext + '$'
+        elif i == 'o':
+            Ciphertext = Ciphertext + '@'
+        elif i == '*':
+            Ciphertext = Ciphertext + '!'
+        else:
+            Ciphertext = Ciphertext + i
+    return Ciphertext
+print(Ciphertext('onomonopia'))
