@@ -32,21 +32,27 @@ print(Ciphertext('Computer Science Makes the World go round but it does not make
 
 
 
-"""Write an encryption code that you make up and run it for the variable NoVowels."""
+"""Write an encryption code that you make up and run it for the variable NoVowels'''
 def Ciphertext(pie):
     Ciphertext = ""
     for i in pie:
-        if i =='a':
+        if i =='z':
             Ciphertext = Ciphertext + '%'
-        elif i == 'e':
+        elif i == 'y':
             Ciphertext = Ciphertext + '^'
-        elif i == 'i':
+        elif i == 'x':
             Ciphertext = Ciphertext + '$'
-        elif i == 'o':
+        elif i == 'w':
             Ciphertext = Ciphertext + '@'
-        elif i == 'u':
+        elif i == 'v':
             Ciphertext = Ciphertext + '!'
+        elif i == 't' or i == 't':
+            Ciphertext = Ciphertext + '+'
+        elif i == 's':
+            Ciphertext = Ciphertext + ')'
+        elif i == 'r':
+            CIphertext = Ciphertext + '(':
         else:
             Ciphertext = Ciphertext + i
     return Ciphertext
-print(Ciphertext('onomonopia'))
+print(Ciphertext('i love rock and roll and peanutbutter'))
