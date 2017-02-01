@@ -10,3 +10,6 @@ for i in range(40,0,-5):
 
 """Write a program that will count print all the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
+n = int(input('Enter a number'))
+for i in range(0,100,n):
+        print (i)
