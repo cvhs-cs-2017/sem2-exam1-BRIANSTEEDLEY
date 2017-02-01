@@ -1,4 +1,38 @@
 """Create a Turtle Program that will draw a 3-dimensional cube"""
+import turtle
+turtle = turtle.Turtle()
+m = 90
+n = 90
+def square(m,n):
+    turtle.forward(m)
+    turtle.left(n)
+    turtle.forward(m)
+    turtle.left(n)
+    turtle.forward(m)
+    turtle.left(n)
+    turtle.forward(m)
+    turtle.left(n)
+square(m,n)
+import turtle
+
+o = 90
+p = 90
+def square(o,p):
+    turtle.pu()
+    turtle.goto(-100,20)
+    turtle.pd()
+    turtle.forward(o)
+    turtle.left(p)
+    turtle.forward(o)
+    turtle.left(p)
+    turtle.forward(o)
+    turtle.left(p)
+    turtle.forward(o)
+    turtle.left(p)
+square(o,p)
+
+
+
 
 
 
