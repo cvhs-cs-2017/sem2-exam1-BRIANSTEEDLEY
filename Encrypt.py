@@ -7,7 +7,7 @@ Print the save the result as the variable = NoVowels
 def Ciphertext(pie):
     Ciphertext = ""
     for i in pie:
-        if i =='a':
+        if i == 'a':
             Ciphertext = Ciphertext + '%'
         elif i == 'e':
             Ciphertext = Ciphertext + '^'
@@ -15,12 +15,12 @@ def Ciphertext(pie):
             Ciphertext = Ciphertext + '$'
         elif i == 'o':
             Ciphertext = Ciphertext + '@'
-        elif i == '*':
+        elif i == 'u':
             Ciphertext = Ciphertext + '!'
         else:
             Ciphertext = Ciphertext + i
     return Ciphertext
-print(Ciphertext('onomonopia'))
+print(Ciphertext('Computer Science Makes the World go round but it does not make the world round itself!')
 
 
 
@@ -32,7 +32,7 @@ print(Ciphertext('onomonopia'))
 
 
 
-"""Write an encryption code that you make up and run it for the variable NoVowels"""
+"""Write an encryption code that you make up and run it for the variable NoVowels."""
 def Ciphertext(pie):
     Ciphertext = ""
     for i in pie:
@@ -44,7 +44,7 @@ def Ciphertext(pie):
             Ciphertext = Ciphertext + '$'
         elif i == 'o':
             Ciphertext = Ciphertext + '@'
-        elif i == '*':
+        elif i == 'u':
             Ciphertext = Ciphertext + '!'
         else:
             Ciphertext = Ciphertext + i
